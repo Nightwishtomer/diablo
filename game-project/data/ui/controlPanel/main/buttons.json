@@ -1,0 +1,65 @@
+[
+  {
+    "label": "Char",        
+    "position" : [9, 25],
+    "width" : 71,
+    "height" : 19,
+    "action" : "buttonChar",      
+    "texture" : "buttonChar.png",      
+    "textureEmpty" : null
+  },
+  {
+    "label": "Quests",       
+    "position" : [9, 51],
+    "width" : 71,
+    "height" : 19, 
+    "action" : "buttonQuests",    
+    "texture" : "buttonQuests.png",    
+    "textureEmpty" : null
+  },
+  {
+    "label": "Map",          
+    "position" : [9, 91],
+    "width" : 71,
+    "height" : 19,
+    "action" : "buttonMap",       
+    "texture" : "buttonMap.png",       
+    "textureEmpty" : null
+  },
+  {
+    "label": "Menu",         
+    "position" : [9, 117],
+    "width" : 71,
+    "height" : 19,
+    "action" : "buttonMenu",      
+    "texture" : "buttonMenu.png",      
+    "textureEmpty" : null
+  },
+  {
+    "label": "Inv",         
+    "position" : [560, 25],
+    "width" : 71,
+    "height" : 19,
+    "action" : "buttonInv",       
+    "texture" : "buttonInv.png",       
+    "textureEmpty" : null
+  },
+  {
+    "label": "Spells",      
+    "position" : [560, 51], 
+    "width" : 71,
+    "height" : 19,
+    "action" : "buttonSpells",
+    "texture" : "buttonSpells.png",    
+    "textureEmpty" : null
+  },
+  {
+    "label": "Icon Spell",   
+    "position" : [564, 79],
+    "width" : 58,
+    "height" : 58,
+    "action" : "buttonIconSpell",
+    "texture" : "buttonIconSpell.png", 
+    "textureEmpty" : null
+  }
+]

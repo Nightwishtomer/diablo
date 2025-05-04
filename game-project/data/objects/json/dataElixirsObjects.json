@@ -1,0 +1,67 @@
+{
+  "1" : {
+    "name"            : "Elixir of Strength",
+    "type"            : "elixir",
+    "required"        : { "level" : 15 },
+    "price"           : 5000,
+    "action"          : "",
+    "unique"          : false,
+    "textureObjectId" : 50,
+    "activity"        : true,
+    "belt"            : true, 
+    "cursor"          : true,
+    "description"     : "Эликсиры характеристик. Увеличивает Силу на 1"
+  },
+  "2" : {
+    "name"            : "Elixir of Magic",
+    "type"            : "elixir",
+    "required"        : { "level" : 15 },
+    "price"           : 5000,
+    "action"          : "",
+    "unique"          : false,
+    "textureObjectId" : 46,
+    "activity"        : true,
+    "belt"            : true, 
+    "cursor"          : true,
+    "description"     : "Эликсиры характеристик. Увеличивает Магию на 1"
+  },
+  "3" : {
+    "name"            : "Elixir of Dexterity",
+    "type"            : "elixir",
+    "required"        : { "level" : 15 },
+    "price"           : 5000,
+    "action"          : "",
+    "unique"          : false,
+    "textureObjectId" : 48,
+    "activity"        : true,
+    "belt"            : true, 
+    "cursor"          : true,
+    "description"     : "Эликсиры характеристик. Увеличивает Ловкость на 1"
+  },
+  "4" : {
+    "name"            : "Elixir of Vitality",
+    "type"            : "elixir",
+    "required"        : { "level" : 20},
+    "price"           : 5000,
+    "action"          : "",
+    "unique"          : false,
+    "textureObjectId" : 43,
+    "activity"        : true,
+    "belt"            : true, 
+    "cursor"          : true,
+    "description"     : "Эликсиры характеристик. Увеличивает Живучесть на 1"
+  },
+  "5" : {
+    "name"            : "Spectral Elixir",
+    "type"            : "elixir",
+    "required"        : { },
+    "price"           : null,
+    "action"          : "",
+    "unique"          : false,
+    "textureObjectId" : 27,
+    "activity"        : false,
+    "belt"            : true, 
+    "cursor"          : true,
+    "description"     : "Эликсиры характеристик. Увеличивает все основные характеристики на 3"
+  }
+}

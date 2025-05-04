@@ -1,0 +1,15 @@
+// загрузка данных
+export async function LoadData(type = false, file = false) {
+  if(!type || !file) return false;
+  try {
+      const response = await fetch("./../../../../game-project/data/ui/controlPanel/" + type + "/" + file + ".json");
+      if (!response.ok) {
+          throw new Error(`Ошибка загрузки: ${response.statusText}`);
+      }
+      const data = await response.json();
+      return data;
+  } catch (error) {
+      console.error("Ошибка при загрузке стартовых характеристик:", error);
+      return null;
+  }
+}

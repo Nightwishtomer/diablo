@@ -1,0 +1,104 @@
+{
+  "0" : {
+      "label": "belt0",  
+      "position" : [206, 22],
+      "width" : 26,
+      "height" : 26,
+      "action" : "belt",
+      "pointerdown" : null, 
+      "pointerup" : null, 
+      "texture" : null, 
+      "textureEmpty" : null
+    },
+  
+  
+  "1" : {
+    "label" : "belt1", 
+    "position" : [235, 22], 
+    "width" : 26,
+    "height" : 26,
+    "action" : "belt",
+    "pointerdown" : null, 
+    "pointerup" : null, 
+    "texture" : null, 
+    "textureEmpty" : null
+  },
+  
+  
+  "2" : {
+    "label" : "belt2",
+    "position" : [264, 22], 
+    "width" : 26,
+    "height" : 26,
+    "action" : "belt",
+    "pointerdown" : null, 
+    "pointerup" : null, 
+    "texture" : null, 
+    "textureEmpty" : null
+  },
+  
+  
+  "3" : {
+    "label" : "belt3", 
+    "position" : [292, 22],
+    "width" : 26,
+    "height" : 26, 
+    "action" : "belt",
+    "pointerdown" : null, 
+    "pointerup" : null,  
+    "texture" : null, 
+    "textureEmpty" : null
+  },
+  
+  
+  "4" : {
+    "label" : "belt4",  
+    "position" : [322, 22],
+    "width" : 26,
+    "height" : 26,
+    "action" : "belt",
+    "pointerdown" : null, 
+    "pointerup" : null, 
+    "texture" : null, 
+    "textureEmpty" : null
+  },
+  
+  
+  "5" : {
+    "label" : "belt5", 
+    "position" : [351, 22],
+    "width" : 26,
+    "height" : 26,
+    "action" : "belt",
+    "pointerdown" : null, 
+    "pointerup" : null, 
+    "texture" : null, 
+    "textureEmpty" : null
+  },
+  
+  
+  "6" : {
+    "label" : "belt6", 
+    "position" : [380, 22], 
+    "width" : 26,
+    "height" : 26,
+    "action" : "belt",
+    "pointerdown" : null, 
+    "pointerup" : null, 
+    "texture" : null, 
+    "textureEmpty" : null
+  },
+  
+  
+  "7" : {
+    "label" : "belt7", 
+    "position" : [408, 22],  
+    "width" : 26,
+    "height" : 26,
+    "action" : "belt",
+    "pointerdown" : null, 
+    "pointerup" : null, 
+    "texture" : null, 
+    "textureEmpty" : null 
+  }
+}

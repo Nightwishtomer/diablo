@@ -1,0 +1,83 @@
+{
+  "logo": {
+    "visible" : true
+  },
+  "title": "Settings Menu",
+  "buttons": [
+    { 
+      "text": "Audio",
+      "title": "AudioButton",
+      "textType" : "big",
+      "action":  "console.log('AudioButton'); ",
+      "action1":  "console.log('AudioButton1'); ",
+      "positionY" : 300
+    },
+    {
+      "text": "Video",
+      "title": "VideoButton",
+      "textType" : "big",
+      "action": "console.log('VideoButton'); ",
+      "action1": "console.log('VideoButton1'); ",
+      "positionY" : 350
+    },
+    
+    { "text": "Control",
+    "title": "ControlButton",
+    "textType" : "big",
+    "action": "console.log('ControlButton'); ",
+    "action1": "console.log('ControlButton1'); ",
+    "positionY" : 400
+    },
+
+    { "text": "Exit",
+    "title": "ExitButton",
+    "textType" : "big",
+    "action": "console.log('ExitButton'); ",
+    "action1": "console.log('ExitButton1'); ",
+    "positionY" : 400
+    }
+  ],
+  "selected" : 0
+}
+
+
+
+
+
+
+
+
+
+
+{
+  "logo": {
+    "visible" : true
+  },
+  "title": "Main Menu",
+  "buttons": [
+    { 
+      "text": "Single Player",
+      "title": "SinglePlayerButton",
+      "textType" : "big",
+      "action":  "console.log('SinglePlayerButton'); ",
+      "action1":  "console.log('SinglePlayerButton1'); ",
+      "positionY" : 300
+    },
+    {
+      "text": "Settings",
+      "title": "SettingsButton",
+      "textType" : "big",
+      "action": "console.log('SettingsButton'); ",
+      "action1": "console.log('SettingsButton1'); ",
+      "positionY" : 350
+    },
+    { "text": "Exit",
+    "title": "ExitButton",
+    "textType" : "big",
+    "action": "console.log('ExitButton'); ",
+    "action1": "console.log('ExitButton1'); ",
+    "positionY" : 400
+    }
+  ],
+  "selected" : 0
+}

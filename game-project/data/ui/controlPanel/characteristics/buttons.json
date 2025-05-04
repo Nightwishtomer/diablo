@@ -1,0 +1,34 @@
+[
+  {
+    "name" : "AddStrength",
+    "position" : [138, 140],
+    "width" : 39,
+    "height" : 21,
+    "action" : "strength",
+    "texture" : ["buttonChar1NotPressed.png", "buttonChar1Pressed.png"]
+  },
+  {
+    "name" : "AddMagic",    
+    "position" : [138, 168],
+    "width" : 39,
+    "height" : 21,
+    "action" : "magic", 
+    "texture" : ["buttonChar2NotPressed.png", "buttonChar2Pressed.png"]
+  },
+  {
+    "name" : "AddDexterity", 
+    "position" : [138, 196],
+    "width" : 39,
+    "height" : 21,
+    "action" : "dexterity",
+    "texture" : ["buttonChar3NotPressed.png", "buttonChar3Pressed.png"]
+  },
+  {
+    "name" : "AddVitality", 
+    "position" : [138, 224],
+    "width" : 39,
+    "height" : 21,
+    "action" : "vitality", 
+    "texture" : ["buttonChar4NotPressed.png", "buttonChar4Pressed.png"]
+  }
+]

@@ -1,0 +1,231 @@
+{
+  "selectPlayer" : {
+    "title": "Single Player",
+    "logo": { "visible": true },
+    "spinner" : { "type" : "small" },
+    "buttons": [
+      { 
+        "text": "new player", 
+        "label" : "newPlayer", 
+        "action": "console.log('new player + какая нибудь функция');", 
+        "textType" : "big",
+        "positionX": 280,
+        "positionY": 200,
+        "position" : {"x": 430, "y": 220},
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 30,
+          "fill": "#988B5D"
+        }
+      }
+
+
+    
+
+
+    ],
+    "texts" : [
+      {
+        "text" : "Single player character",
+        "label" : "singlePlayerCharacterText",
+        "anchor" : {"x" : 0.5, "y" : 0.5},
+        "visibility" : true,
+        "position" : {"y": 150},
+
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 20,
+          "fill": "#6C6C6C"
+        }
+      },
+      {
+        "text" : "Coose a hero",
+        "label" : "chooseHeroText",
+        "visibility" : true,
+        "position" : {"x": 365, "y": 170},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 25,
+          "fill": "#6C6C6C"
+        }
+      },
+      {
+        "text" : "Level:",
+        "label" : "levelText",
+        "visibility" : true,
+        "position" : {"x": 30, "y": 280},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+      {
+        "text" : "Strength: ",
+        "label" : "strengthText",
+        "visibility" : true,
+        "position" : {"x": 30, "y": 300},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+      {
+        "text" : "Magic:",
+        "label" : "magicText",
+        "visibility" : true,
+        "position" : {"x": 30, "y": 320},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+      {
+        "text" : "Dexterity:",
+        "label" : "dexterityText",
+        "visibility" : true,
+        "position" : {"x": 30, "y": 340},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+      {
+        "text" : "Survivability:",
+        "label" : "survivabilityText",
+        "visibility" : true,
+        "position" : {"x": 30, "y": 360},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+
+
+
+
+
+
+      { 
+        "text": "Ok", 
+        "label" : "ok", 
+        "visibility" : true,
+        "position" : {"x": 290, "y": 450},
+        "anchor" : {"x" : 0.5, "y" : 0.5},
+        "textType" : "big",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 35,
+          "fill": "#988B5D"
+        },
+        "action": "console.log('Ok + какая нибудь функция');"
+      },
+      { 
+        "text": "Delete", 
+        "label" : "delete", 
+        "visibility" : true,
+        "position" : {"x": 410, "y": 450},
+        "anchor" : {"x" : 0.5, "y" : 0.5},
+        "textType" : "big",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 35,
+          "fill": "#988B5D"
+        },
+        "action": "console.log('Delete + какая нибудь функция');" ,
+        "stylePassive" : {
+          "fill": "#6C6C6C"
+        }
+      },
+      { 
+        "text": "Cancel", 
+        "label" : "cancel",
+        "visibility" : true,
+        "position" : {"x": 570, "y": 450},
+        "anchor" : {"x" : 0.5, "y" : 0.5},
+        "textType" : "big",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 35,
+          "fill": "#988B5D"
+        },
+        "action": "this.menuManager.showMenu('mainMenu'); console.log('Cancel + какая нибудь функция');"
+
+        
+      }
+
+    ],
+
+
+
+
+
+    "interfacePictures" : [
+      {
+        "name" : "selectField",
+        "position" : { "x" : 270, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "selectFieldInterfacePictures",
+        "url" : "",
+        "visible" : true
+      },
+      {
+        "name" : "selectChar",
+        "position" : { "x" : 20, "y" : 270},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "selectCharInterfacePictures",
+        "url" : "",
+        "visible" : true
+      },
+      {
+        "name" : "img_all",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_allInterfacePictures",
+        "url" : "",
+        "visible" : true
+      },
+      {
+        "name" : "img_warrior",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_warrior",
+        "url" : "",
+        "visible" : false
+        
+      },
+      {
+        "name" : "img_rogue",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_rogue",
+        "url" : "",
+        "visible" : false
+      },
+      {
+        "name" : "img_sorcerer",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_sorcerer",
+        "url" : "",
+        "visible" : false
+      }
+    ]
+
+  }
+}

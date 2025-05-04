@@ -1,0 +1,12 @@
+// Файл для вывода поинтера
+import { app } from "./../../../index.js"; // Настройки.
+
+export class Pointer {
+  constructor () {
+    // реализовать из тайлсета и json
+    // app.renderer.events.cursorStyles.default = "url('./game-project/assets/images/ui/pointer/defaultIcon.png'),auto";
+    //app.renderer.events.cursorStyles.hover = "url('./game-project/assets/images/ui/pointer/defaultIcon.png'),auto";
+   // app.renderer.events.cursorStyles.mana = "url('./game-project/assets/images/ui/pointer/defaultIcon.png'),auto";
+  }
+}
+

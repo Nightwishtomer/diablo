@@ -1,0 +1,21 @@
+{
+    "frames": {
+        "floor1.png": {
+            "frame": { "x": 0, "y": 0, "w": 128, "h": 192 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 192 },
+            "sourceSize": { "w": 128, "h": 192 }
+        }
+        
+    },
+    "meta": {
+        "app": "http://www.texturepacker.com",
+        "version": "1.0",
+        "image": "floor1.png",
+        "format": "RGBA8888",
+        "size": { "w": 128, "h": 192 },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:2f213a6b451f9f5719773418dfe80ae8$"
+    }
+}

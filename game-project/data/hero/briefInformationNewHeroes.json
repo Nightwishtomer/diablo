@@ -1,0 +1,40 @@
+[
+  {
+    "id"       : 0,
+    "name"     : "Warrior",
+    "heroType" :  "warrior",
+    "briefInformation" : {
+      "level"     : "1",
+      "strength"  : "30",
+      "magic"     : "10",
+      "dexterity" : "20",
+      "vitality"  : "25"
+    }
+  },
+  {
+    "id"       : 1,
+    "name"     : "Rogue",
+    "heroType" :  "rogue",
+    "briefInformation" : {
+      "level"     : "1",  
+      "strength"  : "20",
+      "magic"     : "15",
+      "dexterity" : "30",
+      "vitality"  : "20"
+    }
+  },
+  {
+    "id"       : 3,
+    "name"     : "Sorcerer",
+    "heroType" :  "sorcerer",
+    "briefInformation" : {
+      "level"     : "1",
+      "strength"  : "15",
+      "magic"     : "35",
+      "dexterity" : "15",
+      "vitality"  : "20"
+    }
+  }
+
+]
+

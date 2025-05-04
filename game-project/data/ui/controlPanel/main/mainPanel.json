@@ -1,0 +1,94 @@
+{
+    "frames": {
+        "buttonChar.png": {
+            "frame": { "x": 9, "y": 25, "w": 71, "h": 19 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 71, "h": 19 },
+            "sourceSize": { "w": 71, "h": 19 }
+        },
+        "buttonQuests.png": {
+            "frame": { "x": 9, "y": 51, "w": 71, "h": 19 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 71, "h": 19 },
+            "sourceSize": { "w": 71, "h": 19 }
+        },
+        "buttonMap.png": {
+            "frame": { "x": 9, "y": 91, "w": 71, "h": 19 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 71, "h": 19 },
+            "sourceSize": { "w": 71, "h": 19 }
+        },
+        "buttonMenu.png": {
+            "frame": { "x": 9, "y": 117, "w": 71, "h": 19 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 71, "h": 19 },
+            "sourceSize": { "w": 71, "h": 19 }
+        },
+        "buttonInv.png": {
+            "frame": { "x": 560, "y": 25, "w": 71, "h": 19 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 71, "h": 19 },
+            "sourceSize": { "w": 71, "h": 19 }
+        },
+        "buttonSpells.png": {
+            "frame": { "x": 560, "y": 51, "w": 71, "h": 19 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 71, "h": 19 },
+            "sourceSize": { "w": 71, "h": 19 }
+        },
+        "buttonIconSpell.png": {
+            "frame": { "x": 564, "y": 79, "w": 58, "h": 58 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 58, "h": 58 },
+            "sourceSize": { "w": 58, "h": 58 }
+        },
+        "belt0.png": {
+            "frame": { "x": 206, "y": 22, "w": 26, "h": 26 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 26, "h": 26 },
+            "sourceSize": { "w": 26, "h": 26 }
+        },
+
+        "belt1.png": {
+            "frame": { "x": 235, "y": 22, "w": 26, "h": 26 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 26, "h": 26 },
+            "sourceSize": { "w": 26, "h": 26 }
+        },
+
+        "belt2.png": {
+            "frame": { "x": 264, "y": 22, "w": 26, "h": 26 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 26, "h": 26 },
+            "sourceSize": { "w": 26, "h": 26 }
+        },
+        "belt3.png": {
+            "frame": { "x": 292, "y": 22, "w": 26, "h": 26 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 26, "h": 26 },
+            "sourceSize": { "w": 26, "h": 26 }
+        }
+
+        
+    },
+    "meta": {
+        "app": "http://www.texturepacker.com",
+        "version": "1.0",
+        "image": "./../../../../../game-project/assets/images/ui/controlPanel/mainPanel.png",
+        "format": "RGBA8888",
+        "size": { "w": 640, "h": 144 },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:2f213a6b451f9f5719773418dfe80ae8$"
+    }
+}

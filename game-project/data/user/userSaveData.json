@@ -1,0 +1,54 @@
+[
+  {
+    "id" : 0,
+    "name" : "New Player",
+    "heroType" :  "newPlayer",
+    "briefInformation" : {
+      "level" : "--",
+      "strength" : "--",
+      "magic" : "--",
+      "dexterity" : "--",
+      "survivability" : "--"
+    }
+  },
+  {
+    "id" : 1,
+    "name" : "Tomer 1",
+    "heroType" :  "warrior",
+    "briefInformation" : {
+      "level" : 1,
+      "strength" : 201,
+      "magic" : 301,
+      "dexterity" : 101,
+      "survivability" : 51
+    }
+  },
+  {
+    "id" : 2,
+    "name" : "Tomer 2",
+    "heroType" : "rogue",
+    "briefInformation" : {
+      "level" : 2,
+      "strength" : 202,
+      "magic" : 302,
+      "dexterity" : 102,
+      "survivability" : 52
+    }
+  },
+  {
+    "id" : 3,
+    "name" : "Tomer 3",
+    "heroType" : "sorcerer",
+    "briefInformation" : {
+      "level" : 3,
+      "strength" : 203,
+      "magic" : 303,
+      "dexterity" : 103,
+      "survivability" : 53
+    }
+  }
+
+  
+
+]
+

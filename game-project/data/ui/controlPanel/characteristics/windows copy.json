@@ -1,0 +1,184 @@
+[
+  {
+    "name" : "nameHero",
+    "position" : [16, 17],
+    "width" : 140,
+    "height" : 20,
+    "value" : "name"   
+  },
+  {
+    "name" : "typeHero",
+    "position" : [164, 17],
+    "width" : 140,
+    "height" : 20,
+    "value" : "type" 
+  },
+  {
+    "name" : "level",
+    "position" : [60, 55],
+    "width" : 51,
+    "height" : 20,
+    "value" : "level"    
+  },
+  {
+    "name" : "experience",
+    "position" : [211, 55],
+    "width" : 93,
+    "height" : 20,
+    "value" : "experience"
+  },
+  {
+    "name" : "toNextLevel",      
+    "position" : [211, 83],
+    "width" : 93,
+    "height" : 20,
+    "value" : "toNextLevel"
+  },
+  {
+    "name" : "gold",      
+    "position" : [211, 132],
+    "width" : 93,
+    "height" : 20,
+    "value" : "gold" 
+  },
+  {
+    "name" : "strengthN",  
+    "position" : [91, 140],
+    "width" : 39,
+    "height" : 21,
+    "value" : "strengthN" 
+  },
+  {
+    "name" : "strengthC",  
+    "position" : [138, 140],
+    "width" : 39,
+    "height" : 21,
+    "value" : "strengthC"
+  },
+  {
+    "name" : "magicN",     
+    "position" : [91,  168],
+    "width" : 39,
+    "height" : 21,
+    "value" : "magicN"   
+  },
+  {
+    "name" : "magicC",     
+    "position" : [138, 168],
+    "width" : 39,
+    "height" : 21,
+    "value" : "magicC"     
+  },
+  {
+    "name" : "dexterityN", 
+    "position" : [91, 196],
+    "width" : 39,
+    "height" : 21,
+    "value" : "dexterityN"
+  },
+  {
+    "name" : "dexterityC", 
+    "position" : [138, 196],
+    "width" : 39,
+    "height" : 21,
+    "value" : "dexterityC"
+  },
+  {
+    "name" : "vitalityN",  
+    "position" : [91, 224],
+    "width" : 39,
+    "height" : 21,
+    "value" : "vitalityN"
+  },
+  {
+    "name" : "vitalityC",  
+    "position" : [138, 224],
+    "width" : 39,
+    "height" : 21,
+    "value" : "vitalityC"
+  },
+  {
+    "name" : "newPoints", 
+    "position" : [91, 252],
+    "width" : 39,
+    "height" : 21,
+    "value" : "newPoints"
+  },
+  {
+    "name" : "lives",     
+    "position" : [91, 289],
+    "width" : 39,
+    "height" : 21,
+    "value" : "livesN"
+  },
+  {
+    "name" : "currentLives",     
+    "position" : [138, 289],
+    "width" : 39,
+    "height" : 21,
+    "value" : "livesC"   
+  },
+  {
+    "name" : "manna",     
+    "position" : [91,  317],
+    "width" : 39,
+    "height" : 21,
+    "value" : "mannaN"   
+  },
+  {
+    "name" : "currentManna",     
+    "position" : [138, 317],
+    "width" : 39,
+    "height" : 21,
+    "value" : "mannaC"     
+  },
+
+
+  {
+    "name" : "armorClass",
+    "position" : [253, 168],
+    "width" : 51,
+    "height" : 20,
+    "value" : "armorClass"
+  },
+ 
+  {
+    "name" : "chanceToHit",      
+    "position" : [253, 196],
+    "width" : 51,
+    "height" : 20,
+    "value" : "chanceToHit"   
+  }, 
+  
+  {
+    "name" : "demage",    
+    "position" : [253, 224],
+    "width" : 51,
+    "height" : 20,
+    "value" : "demage"  
+  },
+
+  
+
+  {
+    "name" : "resistMagic",      
+    "position" : [253, 261],
+    "width" : 51,
+    "height" : 20,
+    "value" : "resistMagic"
+  },
+  {
+    "name" : "resistFire",
+    "position" : [253, 289],
+    "width" : 51,
+    "height" : 20,
+    "value" : "resistFire"
+  },
+  {
+    "name" : "resistLgtning",    
+    "position" : [253, 317],
+    "width" : 51,
+    "height" : 20,
+    "value" : "resistLightning"
+  }
+]

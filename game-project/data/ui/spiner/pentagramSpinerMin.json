@@ -1,0 +1,69 @@
+{
+    "frames": {
+        "pentagramSpinerMin0000.png": {
+            "frame": { "x": 0, "y": 0, "w": 12, "h": 12 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 12, "h": 12 },
+            "sourceSize": { "w": 12, "h": 12 }
+        },
+        "pentagramSpinerMin0001.png": {
+            "frame": { "x": 12, "y": 0, "w": 12, "h": 12 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 12, "h": 12 },
+            "sourceSize": { "w": 12, "h": 12 }
+        },
+        "pentagramSpinerMin0002.png": {
+            "frame": { "x": 24, "y": 0, "w": 12, "h": 12 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 12, "h": 12 },
+            "sourceSize": { "w": 12, "h": 12 }
+        },
+        "pentagramSpinerMin0003.png": {
+            "frame": { "x": 36, "y": 0, "w": 12, "h": 12 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 12, "h": 12 },
+            "sourceSize": { "w": 12, "h": 12 }
+        },
+        "pentagramSpinerMin0004.png": {
+            "frame": { "x": 48, "y": 0, "w": 12, "h": 12 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 12, "h": 12 },
+            "sourceSize": { "w": 12, "h": 12 }
+        },
+        "pentagramSpinerMin0005.png": {
+            "frame": { "x": 60, "y": 0, "w": 12, "h": 12 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 12, "h": 12 },
+            "sourceSize": { "w": 12, "h": 12 }
+        },
+        "pentagramSpinerMin0006.png": {
+            "frame": { "x": 72, "y": 0, "w": 12, "h": 12 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 12, "h": 12 },
+            "sourceSize": { "w": 12, "h": 12 }
+        },
+        "pentagramSpinerMin0007.png": {
+            "frame": { "x": 84, "y": 0, "w": 12, "h": 12 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 12, "h": 12 },
+            "sourceSize": { "w": 12, "h": 12 }
+        }
+    },
+    "meta": {
+        "app": "http://www.texturepacker.com",
+        "version": "1.0",
+        "image": "./../../../assets/images/ui/spiner/pentagramSpinerMin.png",
+        "format": "RGBA8888",
+        "size": { "w": 96, "h": 12 },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:2f213a6b451f9f5719773418dfe80ae8$"
+    }
+}

@@ -1,0 +1,169 @@
+{
+  "heroesData" : {
+    "warrior" : {
+      "name" : "Warrior", 
+      "previewImage": "warrior",
+      "level"     : "1",
+      "attribute" : {
+        "lives"     : 70,
+        "manna"     : 10
+      },
+      "characteristics" : {
+        "start" : {
+          "strength"  : 30,
+          "dexterity" : 20,
+          "magic"     : 10,
+          "vitality"  : 25
+        },
+        "current" : {
+          "strength"  : 0,
+          "dexterity" : 0,
+          "magic"     : 0,
+          "vitality"  : 0
+        },
+        "maximum" : {
+          "strength"  : 250,
+          "dexterity" : 60,
+          "magic"     : 50,
+          "vitality"  : 100
+        }
+      },
+      "attackSpeed" : {
+        "swords" : {
+          "readiness" : 0.45,
+          "swiftness" : 0.40,
+          "speed"     : 0.35,
+          "haste"     : 0.40
+        },
+        "axes" : {
+          "readiness" : 0.45,
+          "swiftness" : 0.40,
+          "speed"     : 0.40,
+          "haste"     : 0.40
+        },
+        "staves" : {
+          "readiness" : 0.55,
+          "swiftness" : 0.50,
+          "speed"     : 0.45,
+          "haste"     : 0.45
+        },
+        "bow" : {
+          "readiness" : 0.55,
+          "swiftness" : 0.50,
+          "speed"     : 0, 
+          "haste"     : 0
+        }
+      }
+    },
+    "rogue" : {
+      "name" : "Rogue", 
+      "previewImage": "rogue",
+      "level"     : "1",
+      "attribute" : {
+        "lives"     : 45,
+        "manna"     : 22
+      },
+      "characteristics" : {
+        "start" : {
+          "strength" : 20,
+          "dexterity": 30,
+          "magic"    : 15,
+          "vitality" : 20
+        },
+        "current" : {
+          "strength" : 20,
+          "dexterity": 30,
+          "magic"    : 15,
+          "vitality" : 20
+        },
+        "maximum" : {
+          "strength" : 55,
+          "dexterity": 250,
+          "magic"    : 70,
+          "vitality" : 80
+        }
+      },
+      "attackSpeed" : {
+        "swords" : {
+          "readiness" : 0.50,
+          "swiftness" : 0.45,
+          "speed"     : 0.40,
+          "haste"     : 0.40
+        },
+        "axes" : {
+          "readiness" : 0.65,
+          "swiftness" : 0.60, 
+          "speed"     : 0.55, 
+          "haste"     : 0.55
+        },
+        "staves" : {
+          "readiness" : 0.55, 
+          "swiftness" : 0.50, 
+          "speed"     : 0.45, 
+          "haste"     : 0.45
+        },
+        "bow" : {
+          "readiness" : 0.35,
+          "swiftness" : 0.30, 
+          "speed"     : 0,   
+          "haste"     : 0
+        }
+      }
+    },
+    "sorcerer" : {
+      "name" : "Sorcerer", 
+      "previewImage": "sorcerer",
+      "level"     : "1",
+      "attribute" : {
+        "lives"     : 30,
+        "manna"     : 70
+      },
+      "characteristics" : {
+        "start" : {
+          "strength" : 15,
+          "dexterity": 15,
+          "magic"    : 35,
+          "vitality" : 20
+        },
+        "current" : {
+          "strength" : 15,
+          "dexterity": 15,
+          "magic"    : 35,
+          "vitality" : 20
+        },
+        "maximum" : {
+          "strength" : 45,
+          "dexterity": 85,
+          "magic"    : 250,
+          "vitality" : 80
+        }
+      },
+      "attackSpeed" : { 
+        "swords" : {
+          "readiness" : 0.60, 
+          "swiftness" : 0.55,
+          "speed"     : 0.50, 
+          "haste"     : 0.50
+        },
+        "axes" : { 
+          "readiness" : 0.80, 
+          "swiftness" : 0.75, 
+          "speed"     : 0.70, 
+          "haste"     : 0.70
+        },
+        "staves" : { 
+          "readiness" : 0.60,
+          "swiftness" : 0.55,
+          "speed"     : 0.50, 
+          "haste"     : 0.50
+        },
+        "bow" : {
+          "readiness" : 0.80, 
+          "swiftness" : 0.75,
+          "speed"     : 0,   
+          "haste"     : 0
+        }
+      }
+    }
+  }
+}

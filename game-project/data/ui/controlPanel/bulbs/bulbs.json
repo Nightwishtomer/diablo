@@ -1,0 +1,11 @@
+[
+  { "range" : [12.5, 0],  "textureID" : "0000", "offset" : 56 }, 
+  { "range" : [25, 12.5], "textureID" : "0125", "offset" : 67 },
+  { "range" : [37.5, 25], "textureID" : "0250", "offset" : 78 },
+  { "range" : [50, 37.5], "textureID" : "0375", "offset" : 89 },
+  { "range" : [62.5, 50], "textureID" : "0500", "offset" : 100 },
+  { "range" : [75, 62.5], "textureID" : "0625", "offset" : 111 },
+  { "range" : [87.5, 75], "textureID" : "0750", "offset" : 122 },
+  { "range" : [95, 87.5], "textureID" : "0875", "offset" : 133 },
+  { "range" : [100, 95],  "textureID" : "0100", "offset" : 144 }
+]

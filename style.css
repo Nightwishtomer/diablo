@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Diablo';
+    src: url('/game-project/assets/fonts/diablo_v0.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Diablo', sans-serif;
+}
+
+#myCanvas {
+    width: 640px;
+    height: 480px;
+    border: 1px solid rgb(255, 0, 0);
+    cursor: none;
+    font-family: 'Diablo', sans-serif;
+}

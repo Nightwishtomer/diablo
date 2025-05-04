@@ -1,0 +1,574 @@
+{
+  "mainMenu": {
+    "title": "Main Menu",
+    "logo": { "visible": true },
+    "spinner" : { "type" : "big" },
+    "buttons": [
+      { 
+        "text": "Single Player",
+        "label" : "singlePlayer",  
+        "action": "singlePlayer",
+        "textType" : "big",
+        "positionY": 300,
+        "position" : {"y": 300},
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 45,
+          "fill": "#988B5D"
+       }
+      },
+      { 
+        "text": "Settings",
+        "label" : "settings", 
+        "action": "settings",
+        "textType" : "big",
+        "positionY": 370,
+        "position" : {"y": 370},
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 45,
+          "fill": "#988B5D"
+       }
+      },
+      { 
+        "text": "Exit", 
+        "label" : "exit", 
+        "action": "exit", 
+        "textType" : "big",
+        "positionY": 440,
+        "position" : {"y": 440},
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 45,
+          "fill": "#988B5D"
+       }
+      }
+    ]
+  },
+
+  "settingsMenu": {
+    "title": "Settings Menu",
+    "logo": { "visible": true },
+    "spinner" : { "type" : "big" },
+    "buttons": [
+      { 
+        "text": "Audio",
+        "label" : "audio", 
+        "action": "settingsMenuAudio", 
+        "textType" : "big",
+        "positionY": 200,
+        "position" : {"y": 200},
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 45,
+          "fill": "#988B5D"
+       } 
+    },
+      { 
+        "text": "Video", 
+        "label" : "video", 
+        "action": "settingsMenuVideo", 
+        "textType" : "big",
+        "positionY": 270,
+        "position" : {"y": 270},
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 45,
+          "fill": "#988B5D"
+       }
+    },
+      { 
+        "text": "Control", 
+        "label" : "control", 
+        "action": "settingsMenuControl", 
+        "textType" : "big",
+        "positionY": 340,
+        "position" : {"y": 340},
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 45,
+          "fill": "#988B5D"
+       }
+    },
+      { 
+        "text": "Exit", 
+        "label" : "exit", 
+        "action": "settingsMenuExit", 
+        "textType" : "big",
+        "positionY": 410,
+        "position" : {"y": 410},
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 45,
+          "fill": "#988B5D"
+       }
+    }
+    ]
+  },
+  
+  "selectPlayer": {
+    "title": "Select Player Menu",
+    "logo": { "visible": true },
+    "spinner" : { "type" : "small" },
+    "positionButtons" : {
+      "x": 430,
+      "y": [220,260,300,340]
+      
+    },
+    "styleButtons" : {
+      "fontFamily": "Diablo",
+      "fontSize": 30,
+      "fill": "#988B5D"
+    },
+    "buttons": [],
+    "texts" : [
+      {
+        "text" : "Single player character",
+        "label" : "singlePlayerCharacterText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+
+        "anchor" : {"x" : 0.5, "y" : 0.5},
+        
+        "position" : {"y": 150},
+
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 20,
+          "fill": "#6C6C6C"
+        }
+      },
+      {
+        "text" : "Coose a hero",
+        "label" : "chooseHeroText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 365, "y": 170},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 25,
+          "fill": "#6C6C6C"
+        }
+      },
+      {
+        "text" : "Level:",
+        "label" : "levelText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 30, "y": 280},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+      {
+        "text" : "Strength: ",
+        "label" : "strengthText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 30, "y": 300},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+      {
+        "text" : "Magic:",
+        "label" : "magicText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 30, "y": 320},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+      {
+        "text" : "Dexterity:",
+        "label" : "dexterityText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 30, "y": 340},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+      {
+        "text" : "Survivability:",
+        "label" : "survivabilityText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 30, "y": 360},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+
+
+
+
+
+
+      { 
+        "text": "Ok", 
+        "label" : "ok", 
+        "selectable" : true,
+        "action": "selectPlayerOk",
+        "visibility" : true,
+        "position" : {"x": 290, "y": 450},
+        "anchor" : {"x" : 0.5, "y" : 0.5},
+        "textType" : "big",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 35,
+          "fill": "#988B5D"
+        }
+      },
+      { 
+        "text": "Delete", 
+        "label" : "delete", 
+        "selectable" : true,
+        "action": "selectPlayerDelete",
+        "visibility" : true,
+        "position" : {"x": 410, "y": 450},
+        "anchor" : {"x" : 0.5, "y" : 0.5},
+        "textType" : "big",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 35,
+          "fill": "#988B5D"
+        },
+        "stylePassive" : {
+          "fill": "#6C6C6C"
+        }
+      },
+      { 
+        "text": "Cancel", 
+        "label" : "cancel",
+        "selectable" : true,
+        "action": "settingsMenuExit",
+        "visibility" : true,
+        "position" : {"x": 570, "y": 450},
+        "anchor" : {"x" : 0.5, "y" : 0.5},
+        "textType" : "big",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 35,
+          "fill": "#988B5D"
+        }        
+      }
+    ],
+    "interfacePictures" : [
+      {
+        "name" : "selectField",
+        "position" : { "x" : 270, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "selectFieldInterfacePictures",
+        "url" : "",
+        "visible" : true
+      },
+      {
+        "name" : "selectChar",
+        "position" : { "x" : 20, "y" : 270},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "selectCharInterfacePictures",
+        "url" : "",
+        "visible" : true
+      },
+      {
+        "name" : "img_all",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_allInterfacePictures",
+        "url" : "",
+        "visible" : true
+      },
+      {
+        "name" : "img_warrior",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_warrior",
+        "url" : "",
+        "visible" : false
+        
+      },
+      {
+        "name" : "img_rogue",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_rogue",
+        "url" : "",
+        "visible" : false
+      },
+      {
+        "name" : "img_sorcerer",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_sorcerer",
+        "url" : "",
+        "visible" : false
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "selectNewPlayer": {
+    "title": "Select New Player Menu",
+    "logo": { "visible": true },
+    "spinner" : { "type" : "small" },
+    "positionButtons" : {
+      "x": 430,
+      "y": [220,260,300,340]
+    },
+    "styleButtons" : {
+      "fontFamily": "Diablo",
+      "fontSize": 30,
+      "fill": "#988B5D"
+    },
+    "buttons": [],
+    "texts" : [
+
+
+      {
+        "text" : "Single player character",
+        "label" : "singlePlayerCharacterText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+
+        "anchor" : {"x" : 0.5, "y" : 0.5},
+        
+        "position" : {"y": 150},
+
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 20,
+          "fill": "#6C6C6C"
+        }
+      },
+      {
+        "text" : "Coose class",
+        "label" : "chooseHeroText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 365, "y": 170},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 25,
+          "fill": "#6C6C6C"
+        }
+      },
+      {
+        "text" : "Level:",
+        "label" : "levelText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 30, "y": 280},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+      {
+        "text" : "Strength: ",
+        "label" : "strengthText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 30, "y": 300},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+      {
+        "text" : "Magic:",
+        "label" : "magicText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 30, "y": 320},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+      {
+        "text" : "Dexterity:",
+        "label" : "dexterityText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 30, "y": 340},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+      {
+        "text" : "Survivability:",
+        "label" : "survivabilityText",
+        "selectable" : true,
+        "action": null,
+        "visibility" : true,
+        "position" : {"x": 30, "y": 360},
+        "textType" : "small",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 15,
+          "fill": "#6C6C6C"
+        }
+      },
+
+
+
+
+
+
+
+      { 
+        "text": "Ok", 
+        "label" : "ok", 
+        "selectable" : true,
+        "action": "selectClassHeroOk",
+        "visibility" : true,
+        "position" : {"x": 290, "y": 450},
+        "anchor" : {"x" : 0.5, "y" : 0.5},
+        "textType" : "big",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 35,
+          "fill": "#988B5D"
+        }
+      },
+      { 
+        "text": "Cancel", 
+        "label" : "cancel",
+        "selectable" : true,
+        "action": "backToMain",
+        "visibility" : true,
+        "position" : {"x": 570, "y": 450},
+        "anchor" : {"x" : 0.5, "y" : 0.5},
+        "textType" : "big",
+        "style" : {
+          "fontFamily": "Diablo",
+          "fontSize": 35,
+          "fill": "#988B5D"
+        }        
+      }
+
+    ],
+    "interfacePictures" : [
+      {
+        "name" : "selectField",
+        "position" : { "x" : 270, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "selectFieldInterfacePictures",
+        "url" : "",
+        "visible" : true
+      },
+      {
+        "name" : "selectChar",
+        "position" : { "x" : 20, "y" : 270},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "selectCharInterfacePictures",
+        "url" : "",
+        "visible" : true
+      },
+      {
+        "name" : "img_all",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_allInterfacePictures",
+        "url" : "",
+        "visible" : true
+      },
+      {
+        "name" : "img_warrior",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_warrior",
+        "url" : "",
+        "visible" : false
+        
+      },
+      {
+        "name" : "img_rogue",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_rogue",
+        "url" : "",
+        "visible" : false
+      },
+      {
+        "name" : "img_sorcerer",
+        "position" : { "x" : 20, "y" : 170},
+        "anchor" : {"x" : 0, "y" : 0},
+        "label" : "img_sorcerer",
+        "url" : "",
+        "visible" : false
+      }
+    ]
+  }
+
+
+}

@@ -1,0 +1,55 @@
+const data = {
+  1 : {
+    "name"            : "Optic Amulet",
+    "type"            : "amulets",
+    "required"        : {},
+    "price"           : 9750,
+    "action"          : "",
+    "unique"          : true,
+    "textureObjectId" : 56,
+    "activity"        : true,
+    "belt"            : false, 
+    "cursor"          : true,
+    "description"     : "Амулеты. +5 к Магии. + 20% сопротивляемости молнии. -1 повреждение от врагов. + 20% радиус света. (отсутствует в сетевой игре)"
+  },
+  2 : {
+    "name"            : "Acolyte's Amulet",
+    "type"            : "amulets",
+    "required"        : {},
+    "price"           : 10000,
+    "action"          : "",
+    "unique"          : true,
+    "textureObjectId" : 56,
+    "activity"        : true,
+    "belt"            : false, 
+    "cursor"          : true,
+    "description"     : "Амулеты. половина базовой маны переходят в жизни (для воина хороший амулет)"
+  },
+  3 : {
+    "name"            : "Amulet of Warding",
+    "type"            : "amulets",
+    "required"        : {},
+    "price"           : 30000,
+    "action"          : "",
+    "unique"          : true,
+    "textureObjectId" : 57,
+    "activity"        : true,
+    "belt"            : false, 
+    "cursor"          : true,
+    "description"     : "Амулеты. уменьшает здоровье на 100, но прибавляет сопротивляемость ко всему +40% (для магов)"
+  },
+  4 : {
+    "name"            : "Auric Amulet",
+    "type"            : "amulets",
+    "required"        : {},
+    "price"           : 100,
+    "action"          : "",
+    "unique"          : true,
+    "textureObjectId" : 57,
+    "activity"        : true,
+    "belt"            : false, 
+    "cursor"          : true,
+    "description"     : "Амулеты. Позволяет носить не 5000, а 10000  золота в одной кучке};"
+  }
+}
+export default data;

@@ -1,0 +1,184 @@
+[
+  {
+    "name" : "nameHero",
+    "position" : [16, 17],
+    "width" : 140,
+    "height" : 20,
+    "value" : "Hero['name']"   
+  },
+  {
+    "name" : "typeHero",
+    "position" : [164, 17],
+    "width" : 140,
+    "height" : 20,
+    "value" : "Hero['type']" 
+  },
+  {
+    "name" : "level",
+    "position" : [60, 55],
+    "width" : 51,
+    "height" : 20,
+    "value" : "Hero['experience']['level']"    
+  },
+  {
+    "name" : "experience",
+    "position" : [211, 55],
+    "width" : 93,
+    "height" : 20,
+    "value" : "Hero['experience']['experience']"
+  },
+  {
+    "name" : "toNextLevel",      
+    "position" : [211, 83],
+    "width" : 93,
+    "height" : 20,
+    "value" : "Hero['experience']['toNextLevel']"
+  },
+  {
+    "name" : "gold",      
+    "position" : [211, 132],
+    "width" : 93,
+    "height" : 20,
+    "value" : "Hero['gold'].value" 
+  },
+  {
+    "name" : "strengthN",  
+    "position" : [91, 140],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['char']['strength'].base" 
+  },
+  {
+    "name" : "strengthC",  
+    "position" : [138, 140],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['char']['strength'].value"
+  },
+  {
+    "name" : "magicN",     
+    "position" : [91,  168],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['char']['magic'].base"   
+  },
+  {
+    "name" : "magicC",     
+    "position" : [138, 168],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['char']['magic'].value"     
+  },
+  {
+    "name" : "dexterityN", 
+    "position" : [91, 196],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['char']['dexterity'].base"
+  },
+  {
+    "name" : "dexterityC", 
+    "position" : [138, 196],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['char']['dexterity'].value"
+  },
+  {
+    "name" : "vitalityN",  
+    "position" : [91, 224],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['char']['vitality'].base"
+  },
+  {
+    "name" : "vitalityC",  
+    "position" : [138, 224],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['char']['vitality'].value"
+  },
+  {
+    "name" : "newPoints", 
+    "position" : [91, 252],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['experience']['newPoints']"
+  },
+  {
+    "name" : "lives",     
+    "position" : [91, 289],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['charMain']['life'].base"
+  },
+  {
+    "name" : "currentLives",     
+    "position" : [138, 289],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['charMain']['life'].value"   
+  },
+  {
+    "name" : "manna",     
+    "position" : [91,  317],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['charMain']['mana'].base"   
+  },
+  {
+    "name" : "currentManna",     
+    "position" : [138, 317],
+    "width" : 39,
+    "height" : 21,
+    "value" : "Hero['charMain']['mana'].value"     
+  },
+
+
+  {
+    "name" : "armorClass",
+    "position" : [253, 168],
+    "width" : 51,
+    "height" : 20,
+    "value" : "Hero['property']['armorClass'].valueText"
+  },
+ 
+  {
+    "name" : "chanceToHit",      
+    "position" : [253, 196],
+    "width" : 51,
+    "height" : 20,
+    "value" : "Hero['property']['chanceToHit'].valueText"   
+  }, 
+  
+  {
+    "name" : "demage",    
+    "position" : [253, 224],
+    "width" : 51,
+    "height" : 20,
+    "value" : "Hero['property']['demage'].valueText"  
+  },
+
+  
+
+  {
+    "name" : "resistMagic",      
+    "position" : [253, 261],
+    "width" : 51,
+    "height" : 20,
+    "value" : "Hero['resist']['magic'].valueText"
+  },
+  {
+    "name" : "resistFire",
+    "position" : [253, 289],
+    "width" : 51,
+    "height" : 20,
+    "value" : "Hero['resist']['fire'].valueText"
+  },
+  {
+    "name" : "resistLgtning",    
+    "position" : [253, 317],
+    "width" : 51,
+    "height" : 20,
+    "value" : "Hero['resist']['lightning'].valueText"
+  }
+]

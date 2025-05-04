@@ -1,0 +1,169 @@
+
+
+export const heroesData = {
+
+  warrior : { // ВОИН
+
+    startCharacteristics : { //Стартовые характеристики
+      strength: 30, // Сила
+      dexterity:  20, // Ловкость
+      magic:    10, // Магия
+      vitality: 25, // Живучесть
+      lives:    70, // Жизни
+      manna:    10, // Манна
+
+
+      currentStrength: 30, // текущая Сила
+      currentDexterity:  20, // текущая Ловкость
+      currentMagic:    10, // текущая Магия
+      currentVitality: 25, // текущая Живучесть
+      currentLives:    70, // текущая Жизни
+      currentManna:    10, // текущая Манна
+    },
+
+    maximumCharacteristics : { // Максимальные характеристики
+      strength: 250, // Сила
+      dexterity:  60,  // Ловкость
+      magic:    50,  // Магия
+      vitality: 100, // Живучесть
+    },
+
+    attackSpeed : { // Скорость атаки (в секундах)
+      swords : { // Мечи
+        readiness : 0.45, // Обычные
+        swiftness : 0.40, // Стремительные
+        speed     : 0.35, // Скоростные
+        haste     : 0.40, // Скоростные
+      },
+      axes : { // Топоры
+        swiftness : 0.50, // Стремительные
+        readiness : 0.45, // Обычные
+        swiftness : 0.40, // Стремительные
+        speed     : 0.40, // Скоростные
+        haste     : 0.40, // Скоростные
+      },
+      staves : { // Посохи
+        readiness : 0.55, // Обычные
+        swiftness : 0.50, // Стремительные
+        speed     : 0.45, // Скоростные
+        haste     : 0.45, // Скоростные
+      },
+      bow : { // Лук
+        readiness : 0.55, // Обычные
+        swiftness : 0.50, // Стремительные
+        speed     : 0,    // Скоростные
+        haste     : 0,    // Скоростные
+      },
+    },
+
+  },
+
+  rogue : { // ЛУЧНИЦА
+    
+    startCharacteristics : { //Стартовые характеристики
+      strength: 20, // Сила
+      dexterity:  30, // Ловкость
+      magic:    15, // Магия
+      vitality: 20, // Живучесть
+      lives:    45, // Жизни
+      manna:    22, // Манна
+
+      currentStrength: 20, // текущая Сила
+      currentDexterity:  30, // текущая Ловкость
+      currentMagic:    15, // текущая Магия
+      currentVitality: 20, // текущая Живучесть
+      currentLives:    45, // текущая Жизни
+      currentManna:    22, // текущая Манна
+    },
+
+    maximumCharacteristics : { // Максимальные характеристики
+      strength: 55,  // Сила
+      dexterity:  250, // Ловкость
+      magic:    70,  // Магия
+      vitality: 80,  // Живучесть
+    },
+
+    attackSpeed : { // Скорость атаки (в секундах)
+      swords : { // Мечи
+        readiness : 0.50, // Обычные
+        swiftness : 0.45, // Стремительные
+        speed     : 0.40, // Скоростные
+        haste     : 0.40, // Скоростные
+      },
+      axes : { // Топоры
+        readiness : 0.65, // Обычные
+        swiftness : 0.60, // Стремительные
+        speed     : 0.55, // Скоростные
+        haste     : 0.55, // Скоростные
+      },
+      staves : { // Посохи
+        readiness : 0.55, // Обычные
+        swiftness : 0.50, // Стремительные
+        speed     : 0.45, // Скоростные
+        haste     : 0.45, // Скоростные
+      },
+      bow : { // Лук
+        readiness : 0.35, // Обычные
+        swiftness : 0.30, // Стремительные
+        speed     : 0,    // Скоростные
+        haste     : 0,    // Скоростные
+      },
+    },
+
+  },
+
+  sorcerer : { // МАГ
+
+  startCharacteristics : { //Стартовые характеристики
+    strength: 15, // Сила
+    dexterity:  15, // Ловкость
+    magic:    35, // Магия
+    vitality: 20, // Живучесть
+    lives:    30, // Жизни
+    manna:    70, // Манна
+
+    currentStrength: 15, // текущая Сила
+    currentDexterity:  15, // текущая Ловкость
+    currentMagic:    35, // текущая Магия
+    currentVitality: 20, // текущая Живучесть
+    currentLives:    30, // текущая Жизни
+    currentManna:    70, // текущая Манна
+  },
+
+  maximumCharacteristics : { // Максимальные характеристики
+    strength: 45,  // Сила
+    dexterity:  85,  // Ловкость
+    magic:    250, // Магия
+    vitality: 80,  // Живучесть
+  },
+
+  attackSpeed : { // Скорость атаки (в секундах)
+    swords : { // Мечи
+      readiness : 0.60, // Обычные
+      swiftness : 0.55, // Стремительные
+      speed     : 0.50, // Скоростные
+      haste     : 0.50, // Скоростные
+    },
+    axes : { // Топоры
+      readiness : 0.80, // Обычные
+      swiftness : 0.75, // Стремительные
+      speed     : 0.70, // Скоростные
+      haste     : 0.70, // Скоростные
+    },
+    staves : { // Посохи
+      readiness : 0.60, // Обычные
+      swiftness : 0.55, // Стремительные
+      speed     : 0.50, // Скоростные
+      haste     : 0.50, // Скоростные
+    },
+    bow : { // Лук
+      readiness : 0.80, // Обычные
+      swiftness : 0.75, // Стремительные
+      speed     : 0,    // Скоростные
+      haste     : 0,    // Скоростные
+    },
+  },
+
+}, 
+
+};

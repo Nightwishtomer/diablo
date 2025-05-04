@@ -1,0 +1,69 @@
+{
+    "frames": {    
+        "buttonChar1NotPressed.png": {
+            "frame": { "x": 0, "y": 0, "w": 41, "h": 22 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 22 },
+            "sourceSize": { "w": 41, "h": 22 }
+        },
+        "buttonChar1Pressed.png": {
+            "frame": { "x": 41, "y": 0, "w": 41, "h": 22 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 22 },
+            "sourceSize": { "w": 41, "h": 22 }
+        },
+        "buttonChar2NotPressed.png": {
+            "frame": { "x": 82, "y": 0, "w": 41, "h": 22 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 22 },
+            "sourceSize": { "w": 41, "h": 22 }
+        },
+        "buttonChar2Pressed.png": {
+            "frame": { "x": 123, "y": 0, "w": 41, "h": 22 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 22 },
+            "sourceSize": { "w": 41, "h": 22 }
+        },
+        "buttonChar3NotPressed.png": {
+            "frame": { "x": 164, "y": 0, "w": 41, "h": 22 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 22 },
+            "sourceSize": { "w": 41, "h": 22 }
+        },
+        "buttonChar3Pressed.png": {
+            "frame": { "x": 205, "y": 0, "w": 41, "h": 22 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 22 },
+            "sourceSize": { "w": 41, "h": 22 }
+        },
+        "buttonChar4NotPressed.png": {
+            "frame": { "x": 246, "y": 0, "w": 41, "h": 22 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 22 },
+            "sourceSize": { "w": 41, "h": 22 }
+        },
+        "buttonChar4Pressed.png": {
+            "frame": { "x": 287, "y": 0, "w": 41, "h": 22 },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": { "x": 0, "y": 0, "w": 41, "h": 22 },
+            "sourceSize": { "w": 41, "h": 22 }
+        }
+    },
+    "meta": {
+        "app": "http://www.texturepacker.com",
+        "version": "1.0",
+        "image": "./../../../../game-project/assets/images/ui/controlPanel/buttonChar.png",
+        "format": "RGBA8888",
+        "size": { "w": 328, "h": 22 },
+        "scale": "1",
+        "smartupdate": "$TexturePacker:SmartUpdate:2f213a6b451f9f5719773418dfe80ae8$"
+    }
+}
