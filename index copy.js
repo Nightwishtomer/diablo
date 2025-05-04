@@ -3,9 +3,9 @@
 // Example of using:
 // *
 // 
-// *
-////////
-
+// *еееу ssssss
+////////s
+s
 //import Settings from "../game-project/config/settings.js";
 import Settings from "settings";
 import Environment from "environment";
