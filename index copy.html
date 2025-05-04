@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style type="text/css"></style>
+		<title>JavaScript Diablo 0.1</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link href="./style.css" rel="stylesheet" type="text/css">
+		<script>
+			console.log(document.domain);
+			</script>
+			
+		<script type="importmap">
+			
+			{
+				"imports": {
+					"index" : "../index.js",
+					"environment" : "../game-project/config/environment.js",
+					"settings" : "../game-project/config/settings.js",
+					"pixi" : "../game-project/pixijs/pixi.mjs",
+					"core/actionsLib" : "../game-project/scr/core/actionsLib.js",
+
+
+
+					"hero/inventory/person" : "../game-project/scr/hero/inventory/person.js",
+					"hero/inventory/bag" : "../game-project/scr/hero/inventory/bag.js",
+					"hero/inventory/belt" : "../game-project/scr/hero/inventory/belt.js",
+					"hero/inventory/inventory" : "../game-project/scr/hero/inventory/inventory.js",
+
+					
+					
+					"hero/hero" : "../game-project/scr/hero/hero.js",
+					
+					"hero/statLM" : "../game-project/scr/hero/charMain/statLM.js",
+					"hero/life"   : "../game-project/scr/hero/charMain/life.js",
+					"hero/mana"   : "../game-project/scr/hero/charMain/mana.js",
+					
+					"hero/stat"            : "../game-project/scr/hero/char/stat.js",
+					"hero/strength"        : "../game-project/scr/hero/char/strength.js",
+					"hero/dexterity"       : "../game-project/scr/hero/char/dexterity.js",
+					"hero/magic"           : "../game-project/scr/hero/char/magic.js",
+					"hero/vitality"        : "../game-project/scr/hero/char/vitality.js",
+
+					"hero/statProperty"    : "../game-project/scr/hero/property/statProperty.js",
+					"hero/demage"          : "../game-project/scr/hero/property/demage.js",	
+					"hero/armorClass"      : "../game-project/scr/hero/property/armorClass.js",
+					"hero/chanceToHit"     : "../game-project/scr/hero/property/chanceToHit.js",
+					
+					"hero/resist"     : "../game-project/scr/hero/resist.js",
+					"hero/experience"     : "../game-project/scr/hero/experience.js",
+					"hero/gold"     : "../game-project/scr/hero/gold.js",
+					"hero/level"     : "../game-project/scr/hero/level.js",
+			
+					
+
+					
+					
+					
+					
+					
+
+
+
+
+
+
+
+					"level/cathedralGenerator" : "../game-project/scr/level/cathedralGenerator.js",
+					"level/doors" : "../game-project/scr/level/doors.js",
+					"level/initLevel" : "../game-project/scr/level/initLevel.js",
+					"objects/objects" : "../game-project/scr/objects/objects.js",
+					"objects/loadData" : "../game-project/scr/objects/loadData.js",
+					"controlPanel/controlPanel" : "../game-project/scr/ui/controlPanel/controlPanel.js",
+
+					"controlPanel/bulbsPanel" : "../game-project/scr/ui/controlPanel/bulbsPanel.js",
+					"controlPanel/loadData" : "../game-project/scr/ui/controlPanel/loadData.js",
+					"controlPanel/characteristicPanel" : "../game-project/scr/ui/controlPanel/characteristicPanel.js",
+					"controlPanel/inventoryPanel" : "../game-project/scr/ui/controlPanel/inventoryPanel.js",
+					"controlPanel/mainPanel" : "../game-project/scr/ui/controlPanel/mainPanel.js",
+					"controlPanel/beltPanel" : "../game-project/scr/ui/controlPanel/beltPanel.js",
+					
+
+
+					"draggable" : "../game-project/scr/utils/draggable.js",
+					"menu/menus/mainMenu" : "../game-project/scr/ui/menu/menus/mainMenu.js",
+					"menu/menus/pauseMenu" : "../game-project/scr/ui/menu/menus/pauseMenu.js",
+					"menu/menus/settingsMenu" : "../game-project/scr/ui/menu/menus/settingsMenu.js",
+					"menu/inventoryMenu" : "../game-project/scr/ui/menu/inventoryMenu.js",
+					"menu/jsonMenu" : "../game-project/scr/ui/menu/jsonMenu.js",
+					"menu/loadUserData" : "../game-project/scr/ui/menu/loadUserData.js",
+					"menu/menuLoader" : "../game-project/scr/ui/menu/menuLoader.js",
+					"menu/menuManager" : "../game-project/scr/ui/menu/menuManager.js",
+					"menu/pentagramSpiner" : "../game-project/scr/ui/menu/pentagramSpiner.js",
+					"text/text" : "../game-project/scr/ui/text/text.js",
+					"text/textBig" : "../game-project/scr/ui/text/textBig.js",
+					"text/textSmall" : "../game-project/scr/ui/text/textSmall.js",
+					"ui/cursor" : "../game-project/scr/ui/cursor.js",
+					"ui/diabloLogo" : "../game-project/scr/ui/diabloLogo.js",
+					"ui/keyboard" : "../game-project/scr/ui/keyboard.js",
+
+					"ui/uiManager" : "../game-project/scr/ui/uiManager.js",
+
+					"utils/memory" : "../game-project/scr/utils/memory.js",
+					"utils/math" : "../game-project/scr/utils/math.js",
+
+
+
+					"objects/classAmulets" : "../game-project/scr/objects/classAmulets.js",
+					"objects/classArmors" : "../game-project/scr/objects/classArmors.js",
+					"objects/classAxes" : "../game-project/scr/objects/classAxes.js",
+					"objects/classBows" : "../game-project/scr/objects/classBows.js",
+					"objects/classElixirs" : "../game-project/scr/objects/classElixirs.js",
+					"objects/classHelmets" : "../game-project/scr/objects/classHelmets.js",
+					"objects/classMaces" : "../game-project/scr/objects/classMaces.js",
+					"objects/classOils" : "../game-project/scr/objects/classOils.js",
+					"objects/classPotions" : "../game-project/scr/objects/classPotions.js",
+					"objects/classRings" : "../game-project/scr/objects/classRings.js",
+					"objects/classRunes" : "../game-project/scr/objects/classRunes.js",
+					"objects/classShields" : "../game-project/scr/objects/classShields.js",
+					"objects/classStaffs" : "../game-project/scr/objects/classStaffs.js",
+					"objects/classSwords" : "../game-project/scr/objects/classSwords.js",
+
+					"objects/objectsLib"  : "../game-project/scr/objects/objectsLib.js",
+					"objects/object"      : "../game-project/scr/objects/object.js",
+					"objects/descriptionRender" : "../game-project/scr/objects/descriptionRender.js",
+
+					"objects/internals/description" : "../game-project/scr/objects/internals/description.js",
+					"objects/internals/price" : "../game-project/scr/objects/internals/price.js",
+					"objects/internals/texture" : "../game-project/scr/objects/internals/texture.js",
+					"objects/internals/required" : "../game-project/scr/objects/internals/required.js",
+					"objects/internals/armorClass" : "../game-project/scr/objects/internals/armorClass.js",
+					"objects/internals/durability" : "../game-project/scr/objects/internals/durability.js",
+					"objects/internals/armorType" : "../game-project/scr/objects/internals/armorType.js",
+					"objects/internals/heaviness" : "../game-project/scr/objects/internals/heaviness.js",
+
+					
+
+
+					"npc" : "../game-project/scr/entities/npc/npc.js",
+
+
+							
+"objects/data/dataAmuletsObjects" : "../game-project/data/objects/js/dataAmuletsObjects.js",
+"objects/data/dataArmorsObjects" : "../game-project/data/objects/js/dataArmorsObjects.js",
+"objects/data/dataAxesObjects" : "../game-project/data/objects/js/dataAxesObjects.js",
+"objects/data/dataBowsObjects" : "../game-project/data/objects/js/dataBowsObjects.js",
+"objects/data/dataElixirsObjects" : "../game-project/data/objects/js/dataElixirsObjects.js",
+"objects/data/dataHelmetsObjects" : "../game-project/data/objects/js/dataHelmetsObjects.js",
+"objects/data/dataMacesObjects" : "../game-project/data/objects/js/dataMacesObjects.js",
+"objects/data/dataOilsObjects" : "../game-project/data/objects/js/dataOilsObjects.js",
+"objects/data/dataPotionsObjects" : "../game-project/data/objects/js/dataPotionsObjects.js",
+"objects/data/dataRingsObjects" : "../game-project/data/objects/js/dataRingsObjects.js",
+"objects/data/dataRunesObjects" : "../game-project/data/objects/js/dataRunesObjects.js",
+"objects/data/dataShieldsObjects" : "../game-project/data/objects/js/dataShieldsObjects.js",
+"objects/data/dataStaffsObjects" : "../game-project/data/objects/js/dataStaffsObjects.js",
+"objects/data/dataSwordsObjects" : "../game-project/data/objects/js/dataSwordsObjects.js",
+
+"objects/data/textureObjectData" : "../game-project/data/objects/js/textureObjectData.js"
+					
+
+					
+					
+					
+					
+					
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+				}
+			}
+			</script>
+		<script src="./index.js" type="module"></script>
+		<style></style>
+	</head>
+	<body>
+		</br>
+		<script type="module">
+			// Create the application helper and add its render target to the page
+		</script>
+		<canvas id="myCanvas"></canvas>
+		<script>
+			document.addEventListener('contextmenu', function(event) {
+			  event.preventDefault();
+			});
+
+			window.onload = (event) => {
+					console.log("page HTML Diablo 0.1 is fully loaded");
+				};
+		</script>
+	</body>
+</html>
