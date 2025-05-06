@@ -1,5 +1,4 @@
-import { LEVELSETTINGS } from "./../../../diablo/game-project/data/level/levelData.js"
-
+import { LEVELSETTINGS } from "data/level/levelData";
 export class Doors {
   constructor(levelMap){
     this._levelMap = levelMap;

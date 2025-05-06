@@ -1,6 +1,6 @@
 // ./game-project/scr/level/initLevel.js
 import { CathedralGenerator } from "level/cathedralGenerator";
-import { LEVELSETTINGS } from "./../../../diablo/game-project/data/level/levelData.js"
+import { LEVELSETTINGS } from "data/level/levelData";
 import { Doors } from "level/doors"
 
 

@@ -1,5 +1,4 @@
-import { LEVELSETTINGS } from "./../../../diablo/game-project/data/level/levelData.js"
-
+import { LEVELSETTINGS } from "data/level/levelData";
 export class CathedralGenerator {
   constructor() {
     this.levelSettings = LEVELSETTINGS.cathedral; // загрузка данных уровня
