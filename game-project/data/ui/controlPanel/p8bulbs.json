@@ -139,7 +139,7 @@
     "meta": {
         "app": "http://www.texturepacker.com",
         "version": "1.0",
-        "image": "./../../../../diablo/game-project/assets/images/ui/controlPanel/p8bulbs.png",
+        "image": "./../../../../game-project/assets/images/ui/controlPanel/p8bulbs.png",
         
         "format": "RGBA8888",
         "size": { "w": 176, "h": 88 },

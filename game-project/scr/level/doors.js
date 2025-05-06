@@ -1,4 +1,5 @@
-import { LEVELSETTINGS } from "data/level/levelData";
+import { LEVELSETTINGS } from "./../../../game-project/data/level/levelData.js"
+
 export class Doors {
   constructor(levelMap){
     this._levelMap = levelMap;

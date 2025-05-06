@@ -60,7 +60,7 @@
     "meta": {
         "app": "http://www.texturepacker.com",
         "version": "1.0",
-        "image": "./../../../../diablo/game-project/assets/images/ui/controlPanel/buttonChar.png",
+        "image": "./../../../../game-project/assets/images/ui/controlPanel/buttonChar.png",
         "format": "RGBA8888",
         "size": { "w": 328, "h": 22 },
         "scale": "1",

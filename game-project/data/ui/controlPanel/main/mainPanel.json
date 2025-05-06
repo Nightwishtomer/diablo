@@ -85,7 +85,7 @@
     "meta": {
         "app": "http://www.texturepacker.com",
         "version": "1.0",
-        "image": "./../../../../../diablo/game-project/assets/images/ui/controlPanel/mainPanel.png",
+        "image": "./../../../../../game-project/assets/images/ui/controlPanel/mainPanel.png",
         "format": "RGBA8888",
         "size": { "w": 640, "h": 144 },
         "scale": "1",

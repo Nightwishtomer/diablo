@@ -1,5 +1,5 @@
-//import * as ObjectsData from "./../../../../diablo/game-project/data/objects/objects.js"; // items
-await Assets.load('./../../../../diablo/game-project/data/objects/objcurs.json'); // Ассет. 
+import * as ObjectsData from "./../../../../game-project/data/objects/objects.js"; // items
+await Assets.load('./../../../../game-project/data/objects/objcurs.json'); // Ассет. 
 import { Application, Assets, Sprite, Container, Rectangle, Texture, AnimatedSprite, Ticker } from "pixi";
 //import { Hero, HeroData } from "hero/hero";
 import Hero from "hero/hero";

@@ -1257,7 +1257,7 @@
   "meta": {
       "app": "http://www.texturepacker.com",
       "version": "1.0",
-      "image": "./../../../diablo/game-project/assets/images/items/objcurs.png",
+      "image": "./../../../game-project/assets/images/items/objcurs.png",
       
       "format": "RGBA8888",
       "size": { "w": 7652, "h": 84 },

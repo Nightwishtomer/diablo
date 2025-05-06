@@ -21,9 +21,12 @@ import { InvBag } from "hero/inventory/bag"; // Подключение файл�
 import { InvPerson } from "hero/inventory/person"; // Подключение файла. Для получения персонажа
 import { Object } from "objects/object"; // object
 
-import rogueData from "data/hero/rogue";
-import sorcererData from "data/hero/sorcerer";
-import warriorData from "data/hero/warrior";
+
+
+
+import rogueData from "./../../../../game-project/data/hero/startHeroesData/rogue.js";
+import sorcererData from "./../../../../game-project/data/hero/startHeroesData/sorcerer.js";
+import warriorData from "./../../../../game-project/data/hero/startHeroesData/warrior.js";
 
 class HeroClass {
   constructor() {

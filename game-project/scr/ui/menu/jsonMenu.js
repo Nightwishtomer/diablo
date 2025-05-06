@@ -11,16 +11,16 @@ import { app, InitGame } from "index";
 
 
 
-//import { heroDataLoader } from "./../../../../diablo/game-project/scr/hero/heroDataLoader.js";
+//import { heroDataLoader } from "./../../../../game-project/scr/hero/heroDataLoader.js";
 
 // Получаем ассеты картинок
 const AssetsData = {
-    selectField : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/selectField.png'),
-    selectChar : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/selectChar.png'),
-    img_all : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/img_all.png'), // Все: warrior, rogue, sorcerer (Воин, Лучница, Маг)
-    img_rogue : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/img_rogue.png'),// rogue (Лучница)
-    img_sorcerer : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/img_sorcerer.png'), // sorcerer (Маг)
-    img_warrior : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/img_warrior.png'),// warrior (Воин)
+    selectField : await Assets.load('./../../../../game-project/assets/images/ui/menu/selectField.png'),
+    selectChar : await Assets.load('./../../../../game-project/assets/images/ui/menu/selectChar.png'),
+    img_all : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_all.png'), // Все: warrior, rogue, sorcerer (Воин, Лучница, Маг)
+    img_rogue : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_rogue.png'),// rogue (Лучница)
+    img_sorcerer : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_sorcerer.png'), // sorcerer (Маг)
+    img_warrior : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_warrior.png'),// warrior (Воин)
 };
 
 export class JsonMenu {

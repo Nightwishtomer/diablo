@@ -2,7 +2,7 @@
 export async function LoadData(type = false, file = false) {
   if(!type || !file) return false;
   try {
-      const response = await fetch("./../../../../diablo/game-project/data/ui/controlPanel/" + type + "/" + file + ".json");
+      const response = await fetch("./../../../../game-project/data/ui/controlPanel/" + type + "/" + file + ".json");
       if (!response.ok) {
           throw new Error(`Ошибка загрузки: ${response.statusText}`);
       }
