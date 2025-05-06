@@ -1,9 +1,9 @@
 // ./game-project/scr/ui/menu/jsonMenu.js
 import { MenuManager } from "./menuManager.js";
-import { Assets, Sprite, Container, Text } from "./../../../../game-project/pixijs/pixi.mjs";
+import { Assets, Sprite, Container, Text } from "./../../../../diablo/game-project/pixijs/pixi.mjs";
 import { loadMenuData } from "./menuLoader.js";
 import { loadUserData } from "./loadUserData.js";
-import Environment from "./../../../../game-project/config/environment.js";
+import Environment from "./../../../../diablo/game-project/config/environment.js";
 import { logo } from "./../diabloLogo.js"; // Логотип Diablo на экране
 import { DText } from "./../text/text.js"; // текст
 import { PentagramSpiner } from "./pentagramSpiner.js"; // Вращающиеся спиннеры
@@ -12,13 +12,13 @@ import { app } from "./../../../../index.js";
 
 
 const  AssetsData = {
-    selectField : await Assets.load('./../../../../game-project/assets/images/ui/menu/selectField.png'),
-    selectChar : await Assets.load('./../../../../game-project/assets/images/ui/menu/selectChar.png'),
+    selectField : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/selectField.png'),
+    selectChar : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/selectChar.png'),
 
-    img_all : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_all.png'), // Все: warrior, rogue, sorcerer (Воин, Лучница, Маг)
-    img_rogue : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_rogue.png'),// rogue (Лучница)
-    img_sorcerer : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_sorcerer.png'), // sorcerer (Маг)
-    img_warrior : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_warrior.png'),// warrior (Воин)
+    img_all : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/img_all.png'), // Все: warrior, rogue, sorcerer (Воин, Лучница, Маг)
+    img_rogue : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/img_rogue.png'),// rogue (Лучница)
+    img_sorcerer : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/img_sorcerer.png'), // sorcerer (Маг)
+    img_warrior : await Assets.load('./../../../../diablo/game-project/assets/images/ui/menu/img_warrior.png'),// warrior (Воин)
     
     
     

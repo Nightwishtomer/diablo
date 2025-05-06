@@ -9,26 +9,26 @@ import BeltPanel from "controlPanel/beltPanel"; // controlPanel/beltPanel
 import CharacteristicPanel from "controlPanel/characteristicPanel"; // controlPanel/characteristicPanel
 import InventoryPanel from "controlPanel/inventoryPanel"; // controlPanel/inventoryPanel
 
-await Assets.load('./../../../../game-project/data/ui/ControlPanel/main/mainPanel.json'); // Ассет. Нижней Панели 
-await Assets.load('./../../../../game-project/data/ui/ControlPanel/p8bulbs.json'); // Ассет. шары здоровья и маны
-await Assets.load('./../../../../game-project/data/ui/ControlPanel/buttonChar.json'); // Ассет. Кнопок для повышения хорактеристик
+await Assets.load('./../../../../diablo/game-project/data/ui/ControlPanel/main/mainPanel.json'); // Ассет. Нижней Панели 
+await Assets.load('./../../../../diablo/game-project/data/ui/ControlPanel/p8bulbs.json'); // Ассет. шары здоровья и маны
+await Assets.load('./../../../../diablo/game-project/data/ui/ControlPanel/buttonChar.json'); // Ассет. Кнопок для повышения хорактеристик
 
 export const assetsData = {
-  char         : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/char.png'),         // Окно характеристик
-  ////charbut      : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/charbut.png'),      // Кнопки окна характеристик
+  char         : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/char.png'),         // Окно характеристик
+  ////charbut      : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/charbut.png'),      // Кнопки окна характеристик
 
   inv : {
-    rogue    : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/inv_rogue.png'),    // Окно инвентаря Лучницы
-    sorcerer : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/inv_sorcerer.png'), // Окно инвентаря Мага
-    warrior  : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/inv_warrior.png'),	// Окно инвентаря Воина
+    rogue    : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/inv_rogue.png'),    // Окно инвентаря Лучницы
+    sorcerer : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/inv_sorcerer.png'), // Окно инвентаря Мага
+    warrior  : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/inv_warrior.png'),	// Окно инвентаря Воина
   },
-  //p8bulbs      : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/p8bulbs.png'),	    // Пустые шары здоровья и маны
-  mainPanel       : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/mainPanel.png'),       // Нижняя панель 
-  //spelicon_cel : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/spelicon_cel.png'), // Иконки Магии 1
-  //spellbk      : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/spellbk.png'),	    // Окно навыков
-  //spellbkb     : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/spellbkb.png'),     // Кнопки окна навыков
-  ////spelli2_cel  : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/spelli2_cel.png'),  // Иконки Магии 2
-  //buttonChar   : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/buttonChar.json'),  // Ассет. Кнопок для повышения хорактеристик
+  //p8bulbs      : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/p8bulbs.png'),	    // Пустые шары здоровья и маны
+  mainPanel       : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/mainPanel.png'),       // Нижняя панель 
+  //spelicon_cel : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/spelicon_cel.png'), // Иконки Магии 1
+  //spellbk      : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/spellbk.png'),	    // Окно навыков
+  //spellbkb     : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/spellbkb.png'),     // Кнопки окна навыков
+  ////spelli2_cel  : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/spelli2_cel.png'),  // Иконки Магии 2
+  //buttonChar   : await Assets.load('./../../../../diablo/game-project/assets/images/ui/controlPanel/buttonChar.json'),  // Ассет. Кнопок для повышения хорактеристик
 };
 
 export const actions = {

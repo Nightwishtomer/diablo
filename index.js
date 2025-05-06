@@ -6,7 +6,7 @@
 // *
 ////////
 
-//import Settings from "../game-project/config/settings.js";
+//import Settings from "../diablo/game-project/config/settings.js";
 import Settings from "settings";
 import Environment from "environment";
 import { Application, Assets, Sprite, Container, Texture, AnimatedSprite, Ticker } from "pixi";

@@ -11,8 +11,8 @@ import Settings from "settings";
 export async function loadCursor(cursorName = Settings.cursor.default) {
     // Загружаем JSON и спрайт-лист
     const [cursorData, spriteBase] = await Promise.all([
-      Assets.load('./../../../game-project/data/ui/cursor/cursor.json'),
-      Assets.load("./../../../game-project/assets/images/items/objcurs.png"),
+      Assets.load('./../../../diablo/game-project/data/ui/cursor/cursor.json'),
+      Assets.load("./../../../diablo/game-project/assets/images/items/objcurs.png"),
     ]);
 
     if (!cursorData[cursorName]) {
