@@ -1,6 +1,7 @@
 @font-face {
     font-family: 'Diablo';
     src: url('/game-project/assets/fonts/diablo_v0.ttf') format('truetype');
+    src: url('/diablo/game-project/assets/fonts/diablo_v0.ttf') format('truetype');
 }
 
 body {
