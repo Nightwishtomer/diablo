@@ -9,18 +9,17 @@ import { PentagramSpiner } from "menu/pentagramSpiner"; // Вращающиес�
 import { setAllKeyboardNull, keys } from "ui/keyboard"; // кнопки
 import { app, InitGame } from "index";
 
+import hardURLs from "hardURLs"; // hardURLs
 
-
-//import { heroDataLoader } from "./../../../../game-project/scr/hero/heroDataLoader.js";
 
 // Получаем ассеты картинок
 const AssetsData = {
-    selectField : await Assets.load('./../../../../game-project/assets/images/ui/menu/selectField.png'),
-    selectChar : await Assets.load('./../../../../game-project/assets/images/ui/menu/selectChar.png'),
-    img_all : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_all.png'), // Все: warrior, rogue, sorcerer (Воин, Лучница, Маг)
-    img_rogue : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_rogue.png'),// rogue (Лучница)
-    img_sorcerer : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_sorcerer.png'), // sorcerer (Маг)
-    img_warrior : await Assets.load('./../../../../game-project/assets/images/ui/menu/img_warrior.png'),// warrior (Воин)
+    selectField  : hardURLs.assets.data.ui.menu.selectField,
+    selectChar   : hardURLs.assets.data.ui.menu.selectChar,
+    img_all      : hardURLs.assets.data.ui.menu.img_all,
+    img_rogue    : hardURLs.assets.data.ui.menu.img_rogue,
+    img_sorcerer : hardURLs.assets.data.ui.menu.img_sorcerer,
+    img_warrior  : hardURLs.assets.data.ui.menu.img_warrior,
 };
 
 export class JsonMenu {

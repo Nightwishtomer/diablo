@@ -1,8 +1,7 @@
-// ui/menus/menuLoader.js
+import hardURLs from "hardURLs"; // hardURLs
 export async function loadMenuData(file, menuName) {
   try {
-    console.log("./game-project/data/ui/menu/" + file + ".json     -> " + menuName);
-    const response = await fetch("./game-project/data/ui/menu/" + file + ".json");
+    const response = await fetch(hardURLs.assets.data.ui.menu.menuLoader + file + ".json");
 
       if (!response.ok) throw new Error("Ошибка загрузки JSON");
       const result = await response.json();

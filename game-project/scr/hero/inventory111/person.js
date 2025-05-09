@@ -1,5 +1,4 @@
 import Hero from "hero/hero";
-//import { Objects } from "objects/objects"; // objects
 export class InvPerson {
   constructor(){
     super();

@@ -8,10 +8,17 @@ import BulbsPanel from "controlPanel/bulbsPanel"; // controlPanel/bulbsPanel
 import BeltPanel from "controlPanel/beltPanel"; // controlPanel/beltPanel
 import CharacteristicPanel from "controlPanel/characteristicPanel"; // controlPanel/characteristicPanel
 import InventoryPanel from "controlPanel/inventoryPanel"; // controlPanel/inventoryPanel
+import hardURLs from "hardURLs"; // hardURLs
 
-await Assets.load('./../../../../game-project/data/ui/ControlPanel/main/mainPanel.json'); // Ассет. Нижней Панели 
-await Assets.load('./../../../../game-project/data/ui/ControlPanel/p8bulbs.json'); // Ассет. шары здоровья и маны
-await Assets.load('./../../../../game-project/data/ui/ControlPanel/buttonChar.json'); // Ассет. Кнопок для повышения хорактеристик
+
+await Assets.load(hardURLs.data.ui.ControlPanel.main.mainPanel); // Ассет. Нижней Панели 
+await Assets.load(hardURLs.data.ui.ControlPanel.p8bulbs); // Ассет. шары здоровья и маны
+await Assets.load(hardURLs.data.ui.ControlPanel.buttonChar); // Ассет. Кнопок для повышения хорактеристик
+
+
+
+
+
 
 export const assetsData = {
   char         : await Assets.load('./../../../../game-project/assets/images/ui/controlPanel/char.png'),         // Окно характеристик

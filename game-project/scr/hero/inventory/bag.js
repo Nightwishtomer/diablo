@@ -47,7 +47,7 @@ export class InvBag {
   
     ControlPanel.rerender(); // перерисовываем панель после изменения
     //console.log("Реализовать выполнение события ячейки : " + id + " --- " + belt[id]);
-    //console.log("Реализовать в файле ./game-project/scr/hero/belt.js");
+
   }
 
   /**

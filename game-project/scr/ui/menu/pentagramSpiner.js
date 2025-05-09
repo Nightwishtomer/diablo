@@ -1,7 +1,7 @@
 import { Assets, Texture, AnimatedSprite } from "pixi";
-
-await Assets.load('http://localhost/game-project/data/ui/spiner/pentagramSpiner.json');
-await Assets.load('http://localhost/game-project/data/ui/spiner/pentagramSpinerMin.json');
+import hardURLs from "hardURLs"; // hardURLs
+await Assets.load(hardURLs.assets.data.ui.spiner.pentagramSpiner);
+await Assets.load(hardURLs.assets.data.ui.spiner.pentagramSpinerMin);
 
 export class PentagramSpiner {
   constructor({x = 0, y = 0} , type){

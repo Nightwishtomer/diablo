@@ -5,12 +5,9 @@ import { assetsData } from "controlPanel/controlPanel"; // controlPanel/controlP
 import Settings from "settings";
 import { Objects } from "objects/objects"; // objects
 import { selected as selectedDraggable,  Draggable } from "draggable"; // Draggable
-//import { InvPerson } from "hero/inventory/person"; // Подключение файла. Для получения снаряжения персонажа
-//import { InvBag } from "hero/inventory/bag"; // Подключение файла. Для получения снаряжения рюкзака
 import ControlPanel from "controlPanel/controlPanel"; // панель управления
 import { DescriptionRender } from "objects/descriptionRender"; // objects/descriptionRender
 
-//import { UIcreateContainer, UIcreateSprite } from "ui/uiManager";
 
 export class InventoryPanelClass {
   constructor(){

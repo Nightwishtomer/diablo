@@ -1,4 +1,3 @@
-//import Hero from "hero/hero";
 import { StatProperty } from "hero/statProperty";
 export class ProtectionClass extends StatProperty {
   constructor(baseValue = 0){

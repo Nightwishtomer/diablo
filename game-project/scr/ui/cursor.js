@@ -1,6 +1,7 @@
 import { Assets } from "pixi";
 import { app } from "index";
 import Settings from "settings";
+import hardURLs from "hardURLs"; // hardURLs
 
 /**
  * Получение данных из памяти по типу и номеру
@@ -11,8 +12,8 @@ import Settings from "settings";
 export async function loadCursor(cursorName = Settings.cursor.default) {
     // Загружаем JSON и спрайт-лист
     const [cursorData, spriteBase] = await Promise.all([
-      Assets.load('./../../../game-project/data/ui/cursor/cursor.json'),
-      Assets.load("./../../../game-project/assets/images/items/objcurs.png"),
+      Assets.load(hardURLs.data.ui.cursor.cursor),
+      Assets.load(hardURLs.assets.images.items.objcurs),
     ]);
 
     if (!cursorData[cursorName]) {

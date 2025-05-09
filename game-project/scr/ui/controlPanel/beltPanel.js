@@ -2,9 +2,6 @@ import { Filter,  Application, Assets, Sprite, Container, Text, formatShader, Te
 import Hero from "hero/hero";
 import { LoadData } from "controlPanel/loadData"; // controlPanel/loadData
 import ControlPanel from "controlPanel/controlPanel"; // controlPanel/controlPanel
-//import { Belt } from "hero/inventory/belt"; // Подключение файла. Для получения пояса
-////import { Objects } from "objects/objects"; // objects
-//import { Object } from "objects/object"; // object new
 import { selected as selectedDraggable,  Draggable } from "draggable"; // Draggable
 import { DescriptionRender } from "objects/descriptionRender"; // objects/descriptionRender
  

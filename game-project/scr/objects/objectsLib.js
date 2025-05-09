@@ -1,4 +1,3 @@
-//import { Hero, HeroData } from "hero/hero";
 import Hero from "hero/hero";
 import { LoadData } from "objects/loadData"; // objects/loadData
 import { Memory } from "utils/memory"; // utils/memory

@@ -8,9 +8,9 @@ import { InvBag } from "hero/inventory/bag";
 
 
 
-import rogueData from "./../../../../game-project/data/hero/startHeroesData/rogue.js";
-import sorcererData from "./../../../../game-project/data/hero/startHeroesData/sorcerer.js";
-import warriorData from "./../../../../game-project/data/hero/startHeroesData/warrior.js";
+import rogueData from "data/hero/startHeroesData/rogue";
+import sorcererData from "data/hero/startHeroesData/sorcerer";
+import warriorData from "data/hero/startHeroesData/warrior";
 
 export const HeroData = {
 

@@ -1,4 +1,3 @@
-//import { settings } from "./../settings.js"; // Меню Настроек
 export let keys = {
 	ArrowUp      : { state : false, funcUp : null, funcDown : null, },
   ArrowDown    : { state : false, funcUp : null, funcDown : null, },

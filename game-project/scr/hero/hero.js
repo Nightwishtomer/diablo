@@ -11,8 +11,7 @@ import { ArmorClass } from "hero/armorClass";
 import { ChanceToHit } from "hero/chanceToHit";
 import { Demage } from "hero/demage";
 import { Resist } from "hero/resist";
-//import { ResistMagic } from "hero/resistMagic";
-//import { ResistFire } from "hero/resistFire";
+
 import { Experience } from "hero/experience";
 import { Gold } from "hero/gold";
 
@@ -24,9 +23,9 @@ import { Object } from "objects/object"; // object
 
 
 
-import rogueData from "./../../../../game-project/data/hero/startHeroesData/rogue.js";
-import sorcererData from "./../../../../game-project/data/hero/startHeroesData/sorcerer.js";
-import warriorData from "./../../../../game-project/data/hero/startHeroesData/warrior.js";
+import rogueData from "data/hero/startHeroesData/rogue";
+import sorcererData from "data/hero/startHeroesData/sorcerer";
+import warriorData from "data/hero/startHeroesData/warrior";
 
 class HeroClass {
   constructor() {

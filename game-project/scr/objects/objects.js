@@ -1,7 +1,7 @@
-import * as ObjectsData from "./../../../../game-project/data/objects/objects.js"; // items
-await Assets.load('./../../../../game-project/data/objects/objcurs.json'); // Ассет. 
+import hardURLs from "hardURLs"; // hardURLs
+//await Assets.load(hardURLs.assets.data.objects.objcurs); // Ассет. 
+await Assets.load('../game-project/data/objects/objcurs.json'); // Ассет. 
 import { Application, Assets, Sprite, Container, Rectangle, Texture, AnimatedSprite, Ticker } from "pixi";
-//import { Hero, HeroData } from "hero/hero";
 import Hero from "hero/hero";
 import player from "hero/hero";
 import { LoadData } from "objects/loadData"; // objects/loadData

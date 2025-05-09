@@ -1,5 +1,4 @@
 import Hero from "hero/hero";
-//import { Objects } from "objects/objects"; // objects
 
 export class InvBag {
   constructor(){
@@ -20,7 +19,7 @@ export class InvBag {
   async action(id){
 
     //console.log("Реализовать выполнение события ячейки : " + id + " --- " + belt[id]);
-    //console.log("Реализовать в файле ./game-project/scr/hero/belt.js");
+
   }
 
 

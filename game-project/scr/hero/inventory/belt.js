@@ -27,7 +27,7 @@ export class InvBelt {
   action(id){
     const belt = this._data;
     //console.log("Реализовать выполнение события ячейки : " + id + " --- " + belt[id]);
-   // console.log("Реализовать в файле ./game-project/scr/hero/belt.js");
+
     this._data[id].use(); // 
 
     this._cleaning(); // очистка от использованных предметов

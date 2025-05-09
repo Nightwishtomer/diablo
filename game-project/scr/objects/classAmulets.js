@@ -1,9 +1,6 @@
 import data from "objects/data/dataAmuletsObjects";
 import Hero from "hero/hero";
-// import { objectsLib } from "objects/objectsLib";
-// import { LoadData } from "objects/loadData"; // objects/loadData
-// import { Memory } from "utils/memory"; // utils/memory
-//import textureObjectData from "objects/data/textureObjectData";
+
 import { Application, Assets, Sprite, Container, Rectangle, Texture, AnimatedSprite, Ticker } from "pixi";
 import { Description } from "objects/internals/description";
 import { internalPrice } from "objects/internals/price";

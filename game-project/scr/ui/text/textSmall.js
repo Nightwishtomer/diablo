@@ -1,5 +1,9 @@
 import { Assets, Sprite, Container, Texture } from "pixi";
-await Assets.load('./game-project/data/ui/text/textSmall.json');
+import hardURLs from "hardURLs"; // hardURLs
+
+
+
+await Assets.load(hardURLs.assets.data.ui.text.textSmall);
 export class TextSmall {
   constructor(text){
     this.text = text;

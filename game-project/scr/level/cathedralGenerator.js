@@ -1,4 +1,4 @@
-import { LEVELSETTINGS } from "./../../../game-project/data/level/levelData.js"
+import { LEVELSETTINGS } from "data/level/levelData";
 
 export class CathedralGenerator {
   constructor() {

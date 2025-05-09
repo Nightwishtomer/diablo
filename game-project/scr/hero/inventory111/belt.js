@@ -20,7 +20,7 @@ export class Belt {
   async action(id){
     const belt = Hero.belt;
     console.log("Реализовать выполнение события ячейки : " + id + " --- " + belt[id]);
-    console.log("Реализовать в файле ./game-project/scr/hero/belt.js");
+
   }
 
   async check(id){

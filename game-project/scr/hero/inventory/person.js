@@ -1,4 +1,3 @@
-//import { Objects } from "objects/objects"; // objects
 import ControlPanel from "controlPanel/controlPanel"; // controlPanel/controlPanel
 import Hero from "hero/hero";
 export class InvPerson {

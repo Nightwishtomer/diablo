@@ -6,14 +6,13 @@
 // *
 ////////
 
-//import Settings from "../game-project/config/settings.js";
+
 import Settings from "settings";
 import Environment from "environment";
 import { Application, Assets, Sprite, Container, Texture, AnimatedSprite, Ticker } from "pixi";
 import { Keyboard } from "ui/keyboard"; // кнопки
 import { loadCursor } from "ui/cursor"; // кнопки
-//import { InitHero } from "hero/hero"; // инициализируем игрока.
-//import { Hero, HeroData } from "hero/hero"; // класс игрока. для получения и изменения данных
+
 import Hero  from "hero/hero"; // класс игрока. для получения и изменения данных
 import { InitLevel } from "level/initLevel"; // инициализируем уровень.
 import ControlPanel from "controlPanel/controlPanel"; // панель управления
@@ -31,14 +30,7 @@ import { MenuManager } from "menu/menuManager";
 //}
 
 
-//import  from "./constants.js";
-//import * as constants from './constants.js';
-//import CONST from "./constants.js"; // Константы
-//import { settings } from "./settings.js"; // Переменные
-//import { Mouse } from "./ui/mouse.js";
-//import { Pointer } from "./ui/pointer.js";
-//import { Keyboard } from "./ui/keyboard.js"; // кнопки
-//import { MainMenu } from "./menu/mainMenu.js";
+
     
 
 let firstTime;
